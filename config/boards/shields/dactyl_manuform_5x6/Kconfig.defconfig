@@ -3,7 +3,8 @@ if SHIELD_DACTYL_MANUFORM_5x6_LEFT
     config ZMK_KEYBOARD_NAME
         default "DM-5x6(Left)"
 
-
+    config ZMK_SPLIT_BLE_ROLE_CENTRAL
+        default y
 
 endif
 
@@ -11,9 +12,6 @@ if SHIELD_DACTYL_MANUFORM_5x6_RIGHT
 
     config ZMK_KEYBOARD_NAME
         default "DM-5x6(Right)"
-        
-    config ZMK_SPLIT_BLE_ROLE_CENTRAL
-        default y
 
 endif
 
